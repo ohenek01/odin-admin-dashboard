@@ -21,11 +21,11 @@ Features
 	•	Clean and readable layout following modern UI patterns
 
 Built With
-	*	HTML5
-	*	CSS3
-	*	CSS Grid
-	*	Font Awesome for icons
-    *   Images downloaded from https://www.freepik.com/free-photos-vectors/
+	- 	HTML5
+	- 	CSS3
+	- 	CSS Grid
+	- 	Font Awesome for icons
+    -   Images downloaded from https://www.freepik.com/free-photos-vectors/
 
 Key Concepts Practiced
 	*	CSS Grid layout and positioning
@@ -72,6 +72,7 @@ Possible Improvements
 Acknowledgements
 	•	The Odin Project￼ for the curriculum and project guidance
 	•	Font Awesome for the icon library
+	•   Freepik for the images
 
 Author
 
