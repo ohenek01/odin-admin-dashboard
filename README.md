@@ -9,8 +9,7 @@ The dashboard layout includes a sidebar for navigation, a header section for use
 
 Live Preview
 
-(Optional)
-Add a live demo link here if hosted on GitHub Pages or another platform.
+https://ohenek01.github.io/odin-admin-dashboard/
 
 Features
 	•	Fully structured dashboard layout
