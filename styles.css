@@ -24,7 +24,11 @@
     list-style: none;
     display: grid;
     grid-template-rows: repeat(9, 1fr);
-    grid-template-columns: 0.2fr 1fr
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.side-bar ul:last-child{
+    margin-top: -100px;
 }
 
 
@@ -39,6 +43,20 @@
     display: grid;
     grid-template-columns: 0.3fr 4fr 0.3fr 0.3fr 0.7fr;
 }
+
+.menu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -15px
+}
+
+.menu-button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .menu .fa-magnifying-glass{
     margin-left: 25px;
@@ -115,6 +133,7 @@ input{
     box-shadow: 0px 8px 8px -4px rgb(80, 82, 83);
 }
 
+
 .card p{
     font-size: 15px;
     font-weight:lighter;
@@ -157,8 +176,8 @@ input{
 .trending-cards{
     background-color: #FFFFFF;
     color: black;
-    height: 350px;
-    width: 350px;
+    height: 260px;
+    width: 250px;
     text-align: left;
     border-radius: 0.8em;
     box-shadow: 0px 8px 8px -4px rgb(80, 82, 83);
@@ -167,4 +186,27 @@ input{
 .trending-cards p{
     font-size: 12px;
     font-weight:lighter;
+}
+
+.trending-cards div img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.trending-cards div{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    gap: 10px
+}
+
+.trends ul{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 7px;
+    font-size: 10px
+}
+
+.trends li{
+    width: 100px
 }
